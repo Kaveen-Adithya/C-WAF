@@ -15,7 +15,7 @@ C-WAF/
 
 ## 🛠️ Features
 - Rule-based filtering via `config-rule.conf`
-- Multi-threaded support for handling multiple requests (`-lpthread`)
+- Multi-threaded support for handling multiple requests (` -lpthread`)
 - Static binary compilation for portability
 
 ## 🔧 Installation
@@ -50,7 +50,7 @@ gcc -o waf main.c -lpthread -static
 By default, C-WAF will use `config-rule.conf` to apply filtering rules.
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE V3.
 
 ## 📞 Contact
 For any issues or contributions, feel free to open a GitHub issue!
